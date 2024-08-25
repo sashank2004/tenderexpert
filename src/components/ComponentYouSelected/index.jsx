@@ -4,6 +4,7 @@ import ProgramRatingSection from "../ProgramRatingSection";
 import JoiningProcessSection from "../JoiningProcessSection";
 import "./style.css";
 import RegistrationPromoBlock from "../RegistrationPromoBlock";
+import image1 from '/assets/image_fa092b3a.png'
 
 function ComponentYouSelected() {
   return (
@@ -13,7 +14,7 @@ function ComponentYouSelected() {
         <div className="business-coach-info-section">
           <div className="business-coach-card">
             <div className="coach-card-container">
-              <img src="./public/assets/image_fa092b3a.png" className="business-coach-image" />
+              <img src={image1} className="business-coach-image" />
               <div className="business-coach-info-container">
                 <CoachingInfoBlock />
                 <p className="business-success-coach-text-style">

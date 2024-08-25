@@ -2,7 +2,7 @@
 
 This project contains all the code to generate the preview of the node you have selected in the figma
 
-Steps to run the project are listed
+Steps to run the project are listed below
 
 ## Installation
 

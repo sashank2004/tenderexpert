@@ -10,8 +10,7 @@ function ProgramRatingSection() {
           <span>70,000+</span>
           <span className="program-rating-text-style">
             {" "}
-            People Rated My Programs with
-            <br />
+            People Rated My Programs with<br className="brtag"></br>
           </span>
           <span>4.96</span>
           <span className="program-rating-text-style"> Star</span>

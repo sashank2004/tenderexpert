@@ -2,24 +2,21 @@
   display: flex;
   flex-direction: column;
   gap:20px;
-  align-items: stretch;
+  align-items: start;
   justify-content: center;
 }
 .content-wrapper {
   display: flex;
-  flex: 0 0 auto;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
 .svg-container {
   display: flex;
-  flex: 0 0 auto;
   width: 20px;
   height: 20px;
 }
 .time-wealth-secrets-display-style {
-  flex: 0 0 auto;
   padding: 0;
   margin: 0;
   margin-left: 15px;
@@ -32,30 +29,26 @@
 .foundational-activities-container {
   box-sizing: border-box;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: row;
-  align-items: stretch;
+  align-items:start;
   justify-content: flex-start;
   height: 20px;
   margin-top: 16px;
 }
 .foundational-activities-section {
   display: flex;
-  flex: 1 0 auto;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   margin-left: 15px;
 }
 .foundational-heading {
-  flex: 0 0 auto;
   padding: 0;
   margin: 0;
   font: 700 15px Montserrat, sans-serif;
   color: #131313;
 }
 .foundational-activities-heading {
-  flex: 0 0 auto;
   align-self: flex-start;
   padding: 0;
   margin: 0;

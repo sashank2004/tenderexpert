@@ -1,6 +1,10 @@
 .time-wealth-business-growth {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 30rem;
   box-sizing: border-box;
-  padding: 26px 29px 136px;
+  padding: 26px 29px 70px;
   margin-left: 24.5px;
   background: #eeecec;
   border-radius: 25px;
@@ -13,7 +17,6 @@
 }
 .time-wealth-secrets-divider {
   box-sizing: border-box;
-  width: 56px;
   margin-top: 34px;
   border-top: 3px solid #ff7f6b;
 }

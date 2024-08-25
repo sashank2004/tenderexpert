@@ -9,13 +9,11 @@
 }
 .svg-container1 {
   display: flex;
-  flex: 0 0 auto;
   width: 20px;
   height: 20px;
   margin-right: 15px;
 }
 .business-growth-message {
-  flex: 0 0 auto;
   padding: 0;
   margin: 0;
   font: 400 15px Montserrat, sans-serif;
@@ -32,7 +30,6 @@
   margin-top: 16px;
 }
 .profit-scale-container {
-  flex: 0 0 auto;
   padding-bottom: 20px;
 }
 .svg-container2 {
@@ -41,7 +38,6 @@
   height: 20px;
 }
 .profit-scale-message {
-  flex: 0 0 auto;
   padding: 0;
   padding-top: 4.25px;
   margin: 0;

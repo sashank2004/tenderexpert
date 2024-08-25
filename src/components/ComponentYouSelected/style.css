@@ -1,0 +1,165 @@
+.main-content-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success-workshop-details-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 66px;
+  padding-bottom: 47px;
+}
+.business-coach-info-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.business-coach-card {
+  flex: 0 0 auto;
+  padding-top: 4px;
+}
+.coach-card-container {
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.business-coach-image {
+  box-sizing: border-box;
+  display: block;
+  width: 12rem;
+  max-width: initial;
+  border: none;
+  object-fit: cover;
+}
+.business-coach-info-container {
+  flex: 0 0 auto;
+  padding-bottom: 42px;
+  margin-left: 29px;
+}
+.business-success-coach-text-style {
+  padding: 0;
+  margin: 0;
+  margin-top: 31px;
+  font: 400 19px/26.5px Montserrat, sans-serif;
+  color: #131313;
+  text-align: left;
+}
+.full-width-divider {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 42px;
+  border-top: 1px solid #c8c8c8;
+}
+.business-success-details {
+  padding: 0;
+  margin: 0;
+  margin-top: 45px;
+  font: 400 19px/26.5px Montserrat, sans-serif;
+  color: #131313;
+  text-align: left;
+}
+.business-owner-count-text-style {
+  font: 700 19px/26.5px Montserrat, sans-serif;
+  color: #ff7f6b;
+  text-align: left;
+}
+.content-section {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.5px;
+}
+.english-class-details {
+  flex: 0 0 auto;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  font: 400 19px Montserrat, sans-serif;
+  color: #131313;
+}
+.main-event-details {
+  flex: 0 0 auto;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  font: 700 22px/31px Montserrat, sans-serif;
+  color: #131313;
+  text-align: center;
+}
+.bonus-timer-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 46px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 42.15%;
+  padding-bottom: 18px;
+}
+.bonus-registration-message {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  max-width: 183px;
+  padding: 0;
+  margin: 0;
+  font: 600 19px/26.5px Montserrat, sans-serif;
+  color: #131313;
+  text-align: center;
+}
+.countdown-timer-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -6px;
+  margin-left: -62px;
+}
+@media screen and (max-width:1025px){
+  .business-coach-info-section{
+    flex-direction: column;
+  }
+  .business-coach-card{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:600px){
+  .business-coach-image{
+    width: 9rem;
+  }
+  .business-success-coach-text-style{
+    font: 400 15px/26.5px Montserrat, sans-serif;
+  }
+  .business-success-details{
+    font: 400 15px/26.5px Montserrat, sans-serif;
+  color: #131313;
+  }
+  .business-owner-count-text-style{
+    font: 700 15px/26.5px Montserrat, sans-serif;
+  }
+  .english-class-details{
+    font: 400 16px Montserrat, sans-serif;
+  }
+  .main-event-details{
+    font: 700 18px/26px Montserrat, sans-serif;
+  }
+  .success-workshop-details-container{
+    gap:40px;
+  }
+}

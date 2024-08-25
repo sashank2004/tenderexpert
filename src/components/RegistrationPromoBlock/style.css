@@ -1,0 +1,26 @@
+.gradient-price-box {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vh;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background: linear-gradient(270.98deg, rgba(252, 96, 118, 1) 0.08%, rgba(255, 154, 68, 1) 33.36%, rgba(239, 157, 67, 1) 66.64%, rgba(231, 85, 22, 1) 99.92%);
+}
+.promo-banner-text-style {
+  box-sizing: border-box;
+  font: 600 20px/20px Montserrat, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+@media screen and (max-width:600px){
+  .gradient-price-box{
+    width: 100%;
+  }
+  .promo-banner-text-style{
+    font: 600 16px/20px Montserrat, sans-serif;
+  }
+}

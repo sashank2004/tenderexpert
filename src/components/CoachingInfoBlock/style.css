@@ -1,0 +1,23 @@
+.coaching-info {
+  padding: 0;
+  margin: 0;
+  font: 500 16px/22.5px Montserrat, sans-serif;
+  color: #131313;
+  text-align: left;
+}
+.bold-uppercase-title {
+  padding: 0;
+  margin: 0;
+  margin-top: 22.5px;
+  font: 800 35px Montserrat, sans-serif;
+  color: #ff7f6b;
+  text-transform: uppercase;
+}
+@media screen and (max-width:600px){
+  .coaching-info{
+    font: 500 14px/22.5px Montserrat
+  }
+  .bold-uppercase-title{
+    font: 800 25px Montserrat, sans-serif;
+  }
+}

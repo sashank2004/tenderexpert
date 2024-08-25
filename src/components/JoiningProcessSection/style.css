@@ -1,0 +1,30 @@
+.time-wealth-business-growth {
+  box-sizing: border-box;
+  padding: 26px 29px 136px;
+  margin-left: 24.5px;
+  background: #eeecec;
+  border-radius: 25px;
+}
+.main-heading-style {
+  padding: 0;
+  margin: 0;
+  font: 700 23px Montserrat, sans-serif;
+  color: #131313;
+}
+.time-wealth-secrets-divider {
+  box-sizing: border-box;
+  width: 56px;
+  margin-top: 34px;
+  border-top: 3px solid #ff7f6b;
+}
+@media screen and (max-width:1025px){
+  .time-wealth-business-growth{
+    margin-left:0;
+  }
+}
+@media screen and (max-width:600px){
+  .time-wealth-business-growth{
+    display: none;
+    margin-left: 0;
+  }
+}

@@ -4,7 +4,7 @@ function ProgramRatingSection() {
   return (
     <div className="program-rating-stats-container">
       <div className="program-rating-container">
-        <img src="public/assets/image_5bf19134.png" alt="" className="program-rating-info-block" />
+        <img src="./public/assets/image_5bf19134.png" alt="" className="program-rating-info-block" />
         <p className="testimonial-text">
           <span>70,000+</span>
           <span className="program-rating-text-style">

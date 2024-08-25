@@ -141,8 +141,12 @@
   .business-coach-image{
     width: 9rem;
   }
+  .business-coach-info-container{
+    padding-bottom: 6px;
+  }
   .business-success-coach-text-style{
     font: 400 15px/26.5px Montserrat, sans-serif;
+    margin-top: 18px;
   }
   .business-success-details{
     font: 400 15px/26.5px Montserrat, sans-serif;
@@ -159,5 +163,11 @@
   }
   .success-workshop-details-container{
     gap:40px;
+  }
+  .full-width-divider{
+    margin-top: 25px;
+  }
+  .business-success-details{
+    margin-top: 26px;
   }
 }

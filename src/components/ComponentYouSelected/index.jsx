@@ -13,7 +13,7 @@ function ComponentYouSelected() {
         <div className="business-coach-info-section">
           <div className="business-coach-card">
             <div className="coach-card-container">
-              <img src="/assets/image_fa092b3a.png" className="business-coach-image" />
+              <img src="public/assets/image_fa092b3a.png" className="business-coach-image" />
               <div className="business-coach-info-container">
                 <CoachingInfoBlock />
                 <p className="business-success-coach-text-style">

@@ -1,9 +1,11 @@
-{
+{ "homepage": "https://sashank2004.github.io/tenderexpert",
   "name": "react-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@mui/base": "^5.0.0-beta.3",

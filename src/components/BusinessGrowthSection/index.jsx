@@ -12,16 +12,15 @@ function BusinessGrowthSection() {
           <span className="time-wealth-secrets-styler">Increased Revenue &amp; Cashflow</span>
         </p>
       </div>
-      <div className="workshop-details-container">
-        <div className="profit-scale-container">
+      <div className="bworkshop-details-container">
+        <div className="bprofit-scale-container">
           <SvgIcon2 className="svg-container2" />
         </div>
-        <p className="profit-scale-message">
+        <p className="bprofit-scale-message">
           <span>More Profit, More Freedom, More Scale</span>
-          <span className="workshop-details-text-style">
+          <span className="bworkshop-details-text-style">
             {" "}
             Is Guaranteed If
-            <br />
             You Follow The Exact Steps Covered In The Workshop
           </span>
         </p>

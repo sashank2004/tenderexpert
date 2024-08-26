@@ -22,14 +22,14 @@
 .time-wealth-secrets-styler {
   font: 700 15px Montserrat, sans-serif;
 }
-.workshop-details-container {
+.bworkshop-details-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: 16px;
 }
-.profit-scale-container {
+.bprofit-scale-container {
   padding-bottom: 20px;
 }
 .svg-container2 {
@@ -37,7 +37,7 @@
   width: 20px;
   height: 20px;
 }
-.profit-scale-message {
+.bprofit-scale-message {
   padding: 0;
   padding-top: 4.25px;
   margin: 0;
@@ -46,7 +46,7 @@
   color: #131313;
   text-align: left;
 }
-.workshop-details-text-style {
+.bworkshop-details-text-style {
   font: 400 15px/21px Montserrat, sans-serif;
   text-align: left;
 }

@@ -4,7 +4,7 @@ import ProgramRatingSection from "../ProgramRatingSection";
 import JoiningProcessSection from "../JoiningProcessSection";
 import "./style.css";
 import RegistrationPromoBlock from "../RegistrationPromoBlock";
-import image1 from '/assets/image_fa092b3a.png'
+import image1 from '/assets/womanavatar.png'
 
 function ComponentYouSelected() {
   return (

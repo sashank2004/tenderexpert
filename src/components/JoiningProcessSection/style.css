@@ -20,9 +20,10 @@
   margin-top: 34px;
   border-top: 3px solid #ff7f6b;
 }
-@media screen and (max-width:1025px){
+@media screen and (max-width:1040px){
   .time-wealth-business-growth{
     margin-left:0;
+    width: 100%;
   }
 }
 @media screen and (max-width:600px){

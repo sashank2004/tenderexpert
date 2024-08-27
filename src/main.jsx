@@ -2,6 +2,7 @@ import React, { createRoot } from "react-dom/client";
 import ComponentYouSelected from "./components/ComponentYouSelected";
 import WhatHappens from "./components/WhatHappens";
 import Breakthrough from "./components/Breakthrough";
+import DoNotJoinIf from "./components/DoNotJoinIf";
 const rootElement = document.getElementById("root");
 
 if (!rootElement) throw new Error("root element not found");
@@ -12,5 +13,6 @@ root.render(
     <ComponentYouSelected />
     <WhatHappens/>
     <Breakthrough/>
+    <DoNotJoinIf/>
   </div>
 );

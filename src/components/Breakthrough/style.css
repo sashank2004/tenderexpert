@@ -1,0 +1,57 @@
+.break-business-change-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #eeecec;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.break-business-change-section1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.break-business-impact-heading {
+  padding: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 0;
+  font: 700 30px Montserrat, sans-serif;
+  color: #131313;
+}
+.break-business-change-divider {
+  box-sizing: border-box;
+  align-self: center;
+  width: 56px;
+  margin-top: 33px;
+  margin-left: -46px;
+  border-top: 3px solid #ff7f6b;
+}
+.vertical-spacer {
+  margin-top: 55px;
+}
+.image-container {
+  box-sizing: border-box;
+  display: block;
+  width: 500px;
+}
+.stylish-registration-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 70px;
+
+}
+@media screen and (max-width:600px){
+  .image-container{
+    width: 100%;
+  }
+}

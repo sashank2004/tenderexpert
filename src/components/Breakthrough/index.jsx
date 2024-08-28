@@ -6,7 +6,7 @@ function Breakthrough() {
   return (
     <div className="break-business-change-section">
       <div className="break-business-change-section1">
-        <p className="break-business-impact-heading">What Will Change In Your Business?</p>
+        <p className="break-business-impact-heading">Who Will Benefit Most from This B2G Course?</p>
         <div className="break-business-change-divider" />
         <div className="vertical-spacer">
       <img src={breakthrough} alt="" className="aimage-container" />

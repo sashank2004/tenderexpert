@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #eeecec;
+  background: aliceblue;
 }
 .module-business-growth-strategies-container {
   box-sizing: border-box;
@@ -12,11 +12,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 .module-hero-title {
   font: 700 30px Montserrat, sans-serif;
   color: #131313;
+  padding:0 10px;
 }
 .module-border-highlight-stripe {
   box-sizing: border-box;

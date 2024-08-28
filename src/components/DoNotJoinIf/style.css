@@ -9,20 +9,13 @@
 .workshop-info-container1 {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
+  justify-content:center;
   padding-top: 60px;
   padding-bottom: 50px;
 }
-.workshop-registration-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 70px;
-}
 .registration-box {
   width: 100%;
+  margin-top: 70px;
 }
 .gradient-box {
   box-sizing: border-box;
@@ -36,11 +29,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .workshop-title-style {
-  padding: 0;
-  margin: 0;
   font: 700 30px Montserrat, sans-serif;
   color: #131313;
 }
@@ -54,6 +45,7 @@
 .image-container1 {
   margin-top: 55px;
   margin-left: -56px;
+  padding: 5px;
 }
 .image-container {
   box-sizing: border-box;

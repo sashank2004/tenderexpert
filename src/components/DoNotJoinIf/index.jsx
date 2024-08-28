@@ -12,13 +12,11 @@ function DoNotJoinIf() {
       <div className="image-container1">
       <img src={DoNotJoin} alt="" className="image-container" />
     </div>
-    </div>
-        <div className="workshop-registration-section">
+    </div>        
           <div className="registration-box">
             <RegistrationPromoBlock/>
           </div>
         </div>
-      </div>
     </div>
   );
 }

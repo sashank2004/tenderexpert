@@ -3,6 +3,7 @@ import ComponentYouSelected from "./components/ComponentYouSelected";
 import WhatHappens from "./components/WhatHappens";
 import Breakthrough from "./components/Breakthrough";
 import DoNotJoinIf from "./components/DoNotJoinIf";
+import Modules from "./components/Modules";
 const rootElement = document.getElementById("root");
 
 if (!rootElement) throw new Error("root element not found");
@@ -14,5 +15,6 @@ root.render(
     <WhatHappens/>
     <Breakthrough/>
     <DoNotJoinIf/>
+    <Modules/>
   </div>
 );

@@ -1,0 +1,97 @@
+.module-content-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #eeecec;
+}
+.module-business-growth-strategies-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.module-hero-title {
+  font: 700 30px Montserrat, sans-serif;
+  color: #131313;
+}
+.module-border-highlight-stripe {
+  box-sizing: border-box;
+  align-self: center;
+  width: 56px;
+  margin-top: 33px;
+  margin-left: -20.5px;
+  border-top: 3px solid #ff7f6b;
+}
+.module-entrepreneur-success-strategies-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+.module-hero-image-display-style {
+  box-sizing: border-box;
+  display: block;
+  width: 409px;
+  max-width: initial;
+  height: 581px;
+  border: none;
+  object-fit: cover;
+}
+.module-entrepreneur-insights-container {
+  margin-left: 30px;
+}
+.module-foundational-activities-container {
+  width: 40rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  padding-top: 15px;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.module-foundational-button {
+  box-sizing: border-box;
+  display: block;
+  width: 57px;
+  height: 35px;
+  font: 700 22px Montserrat, sans-serif;
+  color: #ff7f6b;
+  background: rgba(255, 127, 107, 0.14);
+  border: none;
+  border-radius: 0px 5px 0px 5px;
+}
+.module-leadership-guide-styles1 {
+  margin-top:-6px;
+  margin-left: 12px;
+  font: 700 16px/24px Montserrat, sans-serif;
+  color: #131313;
+  text-align: left;
+}
+.module-leadership-guide-styles {
+  font: 500 16px/24px Montserrat, sans-serif;
+  text-align: left;
+  text-transform: capitalize;
+}
+@media screen and (max-width:1100px){
+  .module-hero-image-display-style{
+    display: none;
+  }
+  .module-entrepreneur-insights-container{
+    margin-left: 0;
+    padding: 10px;
+  }
+}
+@media screen and (max-width:700px){
+  .module-foundational-activities-container{
+    width: 100%;
+  }
+}

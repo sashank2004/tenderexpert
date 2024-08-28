@@ -9,7 +9,7 @@ function Breakthrough() {
         <p className="break-business-impact-heading">What Will Change In Your Business?</p>
         <div className="break-business-change-divider" />
         <div className="vertical-spacer">
-      <img src={breakthrough} alt="" className="image-container" />
+      <img src={breakthrough} alt="" className="aimage-container" />
       </div>
        <div className="stylish-registration-section">     
        <RegistrationPromoBlock/>

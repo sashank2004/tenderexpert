@@ -8,21 +8,18 @@ function BusinessGrowthSection() {
       <div className="business-growth-section">
         <SvgIcon1 className="svg-container1" />
         <p className="business-growth-message">
-          <span>Your Business Growth With </span>
-          <span className="time-wealth-secrets-styler">Increased Revenue &amp; Cashflow</span>
+          <span>You Acquire Practical, Winning </span>
+          <span className="time-wealth-secrets-styler">Strategies </span>
+          <span>to Secure Lucrative </span>
+          <span className="time-wealth-secrets-styler">Government Contracts</span>
         </p>
       </div>
-      <div className="bworkshop-details-container">
-        <div className="bprofit-scale-container">
-          <SvgIcon2 className="svg-container2" />
-        </div>
-        <p className="bprofit-scale-message">
-          <span>More Profit, More Freedom, More Scale</span>
-          <span className="bworkshop-details-text-style">
-            {" "}
-            Is Guaranteed If
-            You Follow The Exact Steps Covered In The Workshop
-          </span>
+      <div className="business-growth-section">
+        <SvgIcon1 className="svg-container1" />
+        <p className="business-growth-message">
+          <span>You Learn from Real-World </span>
+          <span className="time-wealth-secrets-styler">Success Stories</span>
+          <span>, Applying Proven Tactics to Your Own Ventures</span>
         </p>
       </div>
     </div>

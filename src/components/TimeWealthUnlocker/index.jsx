@@ -8,16 +8,18 @@ function TimeWealthUnlocker() {
       <div className="content-wrapper">
         <SvgIcon1 className="svg-container" />
         <p className="time-wealth-secrets-display-style">
-          <span>You Unlock </span>
-          <span className="time-wealth-secrets-styler">Secrets To Create Time &amp; Wealth</span>
-          <span> In Business</span>
+          <span>You Master the Entire </span>
+          <span className="time-wealth-secrets-styler">Tendering Process</span>
+          <span>, Elevating Your Business in the B2G Space</span>
         </p>
       </div>
       <div className="content-wrapper">
         <SvgIcon1 className="svg-container" />
         <p className="time-wealth-secrets-display-style">
-          <span>You Learn Strong Foundational Activities To </span>
-          <span className="time-wealth-secrets-styler">Win In Your Business</span>
+          <span>You Gain Exclusive </span>
+          <span className="time-wealth-secrets-styler">Insights </span>
+          <span>from Industry Experts, Setting You </span>
+          <span className="time-wealth-secrets-styler">Up for Success</span>
         </p>
       </div>
     </div>

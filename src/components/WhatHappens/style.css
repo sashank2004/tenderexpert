@@ -39,11 +39,15 @@
 }
 .profit-scale-box {
   box-sizing: border-box;
-  height: 17rem;
-  width: 14rem;
+  width:50vh;
+  height: 60vh;
   padding: 25px 24px 25.5px;
   background: #eeecec;
   border-radius: 20px;
+}
+.profit-scale-box:hover{
+  background-color: rgb(81, 81, 178);
+  color: white;
 }
 .time-wealth-image {
   box-sizing: border-box;

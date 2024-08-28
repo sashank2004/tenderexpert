@@ -9,8 +9,7 @@ function BusinessSuccessPresentation() {
           <p className="webinar-title-style">Live and evergreen webinar</p>
         </div>
         <p className="success-message-heading">
-          Join and Become Like The Top 1% Successful
-          Business Owners &amp; Entrepreneurs
+        Master the Art of B2G Contracting: Your Blueprint to Government Success
         </p>
         <div className="border-divider-section" />
         <p className="success-message">Before its too late...</p>

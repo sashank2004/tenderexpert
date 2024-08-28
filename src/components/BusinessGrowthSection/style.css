@@ -6,6 +6,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: start;
+  margin-bottom: 20px;
 }
 .svg-container1 {
   display: flex;
@@ -17,36 +18,7 @@
   padding: 0;
   margin: 0;
   font: 400 15px Montserrat, sans-serif;
-  color: #131313;
 }
 .time-wealth-secrets-styler {
   font: 700 15px Montserrat, sans-serif;
-}
-.bworkshop-details-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-top: 16px;
-}
-.bprofit-scale-container {
-  padding-bottom: 20px;
-}
-.svg-container2 {
-  display: flex;
-  width: 20px;
-  height: 20px;
-}
-.bprofit-scale-message {
-  padding: 0;
-  padding-top: 4.25px;
-  margin: 0;
-  margin-left: 15px;
-  font: 700 15px/21px Montserrat, sans-serif;
-  color: #131313;
-  text-align: left;
-}
-.bworkshop-details-text-style {
-  font: 400 15px/21px Montserrat, sans-serif;
-  text-align: left;
 }

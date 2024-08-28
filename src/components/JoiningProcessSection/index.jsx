@@ -1,4 +1,5 @@
-import WealthCreationSection from "../WealthCreationSection";
+import BusinessGrowthSection from "../BusinessGrowthSection";
+import TimeWealthUnlocker from "../TimeWealthUnlocker";
 import "./style.css";
 
 function JoiningProcessSection() {
@@ -6,7 +7,10 @@ function JoiningProcessSection() {
     <div className="time-wealth-business-growth">
       <p className="main-heading-style">What Happens When You Join?</p>
       <div className="time-wealth-secrets-divider" />
-      <WealthCreationSection />
+      <div className="business-growth-workshop-details">
+      <TimeWealthUnlocker />
+      <BusinessGrowthSection />
+    </div>
     </div>
   );
 }

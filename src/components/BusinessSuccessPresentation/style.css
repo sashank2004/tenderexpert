@@ -11,7 +11,7 @@
   width: 100%;
   padding: 0 20px;
   padding-bottom: 38px;
-  background: #eeecec;
+  background: aliceblue;
   border-radius: 25px;
 }
 .success-box {
@@ -51,7 +51,6 @@
   padding: 0;
   margin: 0;
   font: 700 27px/38px Montserrat, sans-serif;
-  color: #131313;
   text-align: center;
 }
 .border-divider-section {
@@ -67,7 +66,7 @@
   margin-top: 3px;
   margin-left: 14.5px;
   font: 400 19px Montserrat, sans-serif;
-  color: #131313;
+
 }
 @media screen and (max-width:710px){
   .success-promo-container{

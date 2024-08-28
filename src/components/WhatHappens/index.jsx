@@ -8,18 +8,18 @@ const WhatHappens = () => {
   return (
     <div className="business-growth-promo-container">
       <div className="business-growth-promo-section">
-        <p className="hero-heading">What Happens When You Join?</p>
+        <p className="hero-heading">Key Features</p>
         <div className="workshop-divider" />
         <div className="business-growth-features-container">
         
         <div className="profit-scale-box">
       <img src={image4} alt="" className="time-wealth-image" />
       <div className="profit-scale-guarantee">
-        <span className="profit-scale-style not-bold">
-        You Unlock
-        </span>
-      <span className="profit-scale-guarantee-style bold">
-      Secrets To Create Time & Wealth<span  style={{marginLeft:"3px"}}className="not-bold">in Business</span>
+        <span className="profit-scale-style bold">
+        Interactive Learning
+        </span><br/>
+      <span className="profit-scale-guarantee-style not-bold">
+      Engaging exercises, case studies, and quizzes
       </span>
     </div>
     </div>
@@ -28,11 +28,11 @@ const WhatHappens = () => {
           <div className="profit-scale-box">
       <img src={image7} alt="" className="time-wealth-image" />
       <div className="profit-scale-guarantee">
-        <span className="profit-scale-style not-bold">
-        You Learn Strong Foundational Activites To 
+        <span className="profit-scale-style bold">
+        Expert-Led Sessions
         </span>
-      <span className="profit-scale-guarantee-style bold">
-      Win in Your Business
+      <span className="profit-scale-guarantee-style not-bold"><br/>
+      Live webinars or recorded lectures from industry experts
       </span>
     </div>
     </div>
@@ -40,11 +40,11 @@ const WhatHappens = () => {
           <div className="profit-scale-box">
       <img src={image5} alt="" className="time-wealth-image" />
       <div className="profit-scale-guarantee">
-        <span className="profit-scale-style not-bold">
-        Your Business Growth with
-        </span>
-      <span className="profit-scale-guarantee-style bold">
-      Increased Revenue & Cashflow
+        <span className="profit-scale-style bold">
+        Personalized Support
+        </span><br/>
+      <span className="profit-scale-guarantee-style not-bold">
+      Access to dedicated support staff for questions and guidance
       </span>
     </div>
     </div>
@@ -54,12 +54,10 @@ const WhatHappens = () => {
       <img src={image6} alt="" className="time-wealth-image" />
       <div className="profit-scale-guarantee">
         <span className="profit-scale-style bold">
-          More Profit, More
-          Freedom, More Scale 
-        </span>
+        Certificate of Completion
+        </span><br/>
       <span className="profit-scale-guarantee-style not-bold">
-        Is Guaranteed if you follow
-        Workshop
+      Receive a recognized certificate upon completion of the course
       </span>
     </div>
     </div>

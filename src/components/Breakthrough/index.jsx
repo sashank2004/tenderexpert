@@ -1,6 +1,6 @@
 import RegistrationPromoBlock from "../RegistrationPromoBlock";
 import "./style.css";
-import breakthrough from '/assets/breakthrough.png'
+import breakthrough from '/assets/targetaudience.png'
 
 function Breakthrough() {
   return (

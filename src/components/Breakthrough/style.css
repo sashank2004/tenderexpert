@@ -32,19 +32,17 @@
   margin-left: -46px;
   border-top: 3px solid #ff7f6b;
 }
-.vertical-spacer {
-  margin-top: 55px;
-}
 .aimage-container {
-  width: 500px;
-  height: 305px;
+  margin-top:-40px;
+  width: 600px;
+  height: auto;
 }
 .stylish-registration-section {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 @media screen and (max-width:600px){
 .aimage-container{

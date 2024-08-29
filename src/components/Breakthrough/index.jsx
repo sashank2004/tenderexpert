@@ -1,12 +1,12 @@
 import RegistrationPromoBlock from "../RegistrationPromoBlock";
 import "./style.css";
-import breakthrough from '/assets/targetaudience.png'
+import breakthrough from '/assets/change.png'
 
 function Breakthrough() {
   return (
     <div className="break-business-change-section">
       <div className="break-business-change-section1">
-        <p className="break-business-impact-heading">Who Will Benefit Most from This B2G Course?</p>
+        <p className="break-business-impact-heading">What Will Change In Your Business?</p>
         <div className="break-business-change-divider" />
         <div className="vertical-spacer">
       <img src={breakthrough} alt="" className="aimage-container" />

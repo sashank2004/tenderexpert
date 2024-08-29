@@ -4,6 +4,8 @@ import WhatHappens from "./components/WhatHappens";
 import Breakthrough from "./components/Breakthrough";
 import DoNotJoinIf from "./components/DoNotJoinIf";
 import Modules from "./components/Modules";
+import Reviews from "./components/Reviews";
+import Faqs from "./components/Faqs";
 const rootElement = document.getElementById("root");
 
 if (!rootElement) throw new Error("root element not found");
@@ -16,5 +18,7 @@ root.render(
     <Breakthrough/>
     <DoNotJoinIf/>
     <Modules/>
+    <Reviews/>
+    <Faqs/>
   </div>
 );

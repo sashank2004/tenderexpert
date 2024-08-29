@@ -48,5 +48,9 @@
 .aimage-container{
   width: 100%;
   height: auto;
+  margin-top:-70px;
+}
+.stylish-registration-section{
+  margin-top:-80px;
 }
 }

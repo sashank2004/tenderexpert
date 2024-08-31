@@ -7,7 +7,7 @@ function ProgramRatingSection() {
       <div className="program-rating-container">
         <img src={image2} alt="" className="program-rating-info-block" />
         <p className="testimonial-text">
-          <span>70,000+</span>
+          <span>500+</span>
           <span className="program-rating-text-style">
             {" "}
             People Rated My Programs with<br className="brtag"></br>

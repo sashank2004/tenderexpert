@@ -71,33 +71,6 @@
   color: #ff7f6b;
   text-align: left;
 }
-.content-section {
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 46px;
-  justify-content: center;
-  align-items: center;
-  padding-top: 3.5px;
-}
-.english-class-details {
-  flex: 0 0 auto;
-  align-self: center;
-  padding: 0;
-  margin: 0;
-  font: 400 19px Montserrat, sans-serif;
-  color: #131313;
-}
-.main-event-details {
-  flex: 0 0 auto;
-  align-self: center;
-  padding: 0;
-  margin: 0;
-  font: 700 22px/31px Montserrat, sans-serif;
-  color: #131313;
-  text-align: center;
-}
 .bonus-timer-container {
   box-sizing: border-box;
   display: flex;

@@ -2,7 +2,6 @@ import BusinessSuccessPresentation from "../BusinessSuccessPresentation";
 import ProgramRatingSection from "../ProgramRatingSection";
 import JoiningProcessSection from "../JoiningProcessSection";
 import "./style.css";
-import RegistrationPromoBlock from "../RegistrationPromoBlock";
 import image1 from '/assets/womanavatar.png'
 
 function ComponentYouSelected() {
@@ -17,14 +16,12 @@ function ComponentYouSelected() {
               <div className="business-coach-info-container">
               <div>
       <p className="coaching-info">
-        I will be your coach for 1-Month Comprehensive Course
+      We will be your coach for a 1-month comprehensive course.
       </p>
       <p className="bold-uppercase-title">Team of Experts</p>
     </div>
                 <p className="business-success-coach-text-style">
-                  Asia&apos;s Leading Business Success
-                  <br />
-                  Coach
+                Mentorship By Tender Experts and Retired Govt Officials
                 </p>
                 <div className="full-width-divider" />
                 <p className="business-success-details">
@@ -42,15 +39,6 @@ function ComponentYouSelected() {
           </div>
           <JoiningProcessSection />
         </div>
-          <div className="content-section">
-            <p className="english-class-details">Language - Basic English</p>
-            <p className="main-event-details">
-              STARTS ON 27th August 2024
-              <br />
-              (09:00 AM- 01:00 PM)
-            </p>
-            <RegistrationPromoBlock/>
-          </div>
       </div>
     </div>
   );

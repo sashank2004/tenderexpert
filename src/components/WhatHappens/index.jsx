@@ -32,7 +32,7 @@ const WhatHappens = () => {
         Expert-Led Sessions
         </span>
       <span className="profit-scale-guarantee-style not-bold"><br/>
-      Live webinars or recorded lectures from industry experts
+      Live Sessions from Industry experts
       </span>
     </div>
     </div>

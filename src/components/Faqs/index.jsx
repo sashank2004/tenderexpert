@@ -25,16 +25,16 @@ const Faqs = () => {
        <img style={{display:show1? 'none':"flex"}} className='lower' src={lower}/>
        <img style={{display:show1? 'flex':"none"}} className='minus' src={minus}/>
       </div>
-      <span className='random' style={{display:show1? 'flex':"none"}}>Once you enroll in the course, you will have access to these materials directly from the course dashboard.</span>
+      <span className='random' style={{display:show1? 'flex':"none"}}>Once you enroll in the course, you will be given access to these materials</span>
 
       <div onClick={()=>{
         setshow2(!show2);
        }} className='cont'>
-       <span>Will I receive a recording of the course sessions?</span>
+       <span>Will the sessions be conducted live?</span>
        <img style={{display:show2? 'none':"flex"}} className='lower' src={lower}/>
        <img style={{display:show2? 'flex':"none"}} className='minus' src={minus}/>
       </div>
-      <span className='random' style={{display:show2? 'flex':"none"}}>Yes, all course sessions are recorded, allowing you to review the content at your own pace.</span>
+      <span className='random' style={{display:show2? 'flex':"none"}}>Yes, the sessions will be held live to provide real-time interaction and engagement. Recordings will also be available for you to revisit at your convenience.</span>
       
       <div onClick={()=>{
         setshow3(!show3);

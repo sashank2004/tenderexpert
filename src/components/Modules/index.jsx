@@ -6,7 +6,7 @@ function ComponentYouSelected() {
   return (
     <div className="module-content-container">
       <div className="module-business-growth-strategies-container">
-        <p className="module-hero-title">What You Will Learn In 4 Hrs (3.5 Hrs + 30 Mins Bonus Content)?</p>
+        <p className="module-hero-title">What You Will Learn ?</p>
         <div className="module-border-highlight-stripe" />
         <div className="module-entrepreneur-success-strategies-container">
           <img src={bigImage} className="module-hero-image-display-style" />

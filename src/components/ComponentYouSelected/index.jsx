@@ -3,6 +3,7 @@ import ProgramRatingSection from "../ProgramRatingSection";
 import JoiningProcessSection from "../JoiningProcessSection";
 import "./style.css";
 import image1 from '/assets/womanavatar.png'
+import RegistrationPromoBlock from "../RegistrationPromoBlock";
 
 function ComponentYouSelected() {
   return (
@@ -40,6 +41,7 @@ function ComponentYouSelected() {
           <JoiningProcessSection />
         </div>
       </div>
+      <RegistrationPromoBlock/>
     </div>
   );
 }

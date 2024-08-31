@@ -34,7 +34,7 @@ const Faqs = () => {
        <img style={{display:show2? 'none':"flex"}} className='lower' src={lower}/>
        <img style={{display:show2? 'flex':"none"}} className='minus' src={minus}/>
       </div>
-      <span className='random' style={{display:show2? 'flex':"none"}}>Yes, the sessions will be held live to provide real-time interaction and engagement. Recordings will also be available for you to revisit at your convenience.</span>
+      <span className='random' style={{display:show2? 'flex':"none"}}>Yes, the sessions will be held live to provide real-time interaction and engagement. </span>
       
       <div onClick={()=>{
         setshow3(!show3);

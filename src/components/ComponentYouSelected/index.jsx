@@ -1,5 +1,4 @@
 import BusinessSuccessPresentation from "../BusinessSuccessPresentation";
-import CoachingInfoBlock from "../CoachingInfoBlock";
 import ProgramRatingSection from "../ProgramRatingSection";
 import JoiningProcessSection from "../JoiningProcessSection";
 import "./style.css";
@@ -16,7 +15,12 @@ function ComponentYouSelected() {
             <div className="coach-card-container">
               <img src={image1} className="business-coach-image" />
               <div className="business-coach-info-container">
-                <CoachingInfoBlock />
+              <div>
+      <p className="coaching-info">
+        I will be your coach for 1-Month Comprehensive Course
+      </p>
+      <p className="bold-uppercase-title">Team of Experts</p>
+    </div>
                 <p className="business-success-coach-text-style">
                   Asia&apos;s Leading Business Success
                   <br />
@@ -24,15 +28,13 @@ function ComponentYouSelected() {
                 </p>
                 <div className="full-width-divider" />
                 <p className="business-success-details">
-                  <span>Trained over </span>
-                  <span className="business-owner-count-text-style">216,627</span>
+                  <span>Partnered with over </span>
+                  <span className="business-owner-count-text-style">200 </span>
                   <span>
-                    {" "}
-                    Business
-                    <br />
-                    Owners in Last{" "}
+                    Companies and Backed By 
                   </span>
-                  <span className="business-owner-count-text-style">6 Years</span>
+                  <span className="business-owner-count-text-style"> 20 Years </span>
+                  <span>of Experience</span>
                 </p>
               </div>
             </div>

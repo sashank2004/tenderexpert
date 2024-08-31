@@ -36,6 +36,7 @@
   margin-top:-100px;
   width: 600px;
   height: auto;
+  padding-top: 120px;
 }
 .stylish-registration-section {
   display: flex;
@@ -43,6 +44,7 @@
   align-items: center;
   width: 100%;
   margin-top: -100px;
+  margin:0 10px;
 }
 @media screen and (max-width:600px){
 .aimage-container{

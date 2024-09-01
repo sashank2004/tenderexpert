@@ -8,6 +8,8 @@ const Faqs = () => {
   const [show2,setshow2]=useState(false);
   const [show3,setshow3]=useState(false);
   const [show4,setshow4]=useState(false);
+  const [show6,setshow6]=useState(false);
+  const [show7,setshow7]=useState(false);
   return (
     <div className='
     faqss'>
@@ -18,6 +20,25 @@ const Faqs = () => {
         </div>
       </div>
       <div className='all'>
+
+      <div onClick={()=>{
+        setshow6(!show6);
+       }} className='cont'>
+       <span>What is B2G contracting?</span>
+       <img style={{display:show6? 'none':"flex"}} className='lower' src={lower}/>
+       <img style={{display:show6? 'flex':"none"}} className='minus' src={minus}/>
+      </div>
+      <span className='random' style={{display:show6? 'flex':"none"}}>B2G contracting refers to businesses providing goods or services to government agencies. It offers significant opportunities for growth and stability.</span>
+
+      <div onClick={()=>{
+        setshow7(!show7);
+       }} className='cont'>
+       <span>What will I learn in this course?</span>
+       <img style={{display:show7? 'none':"flex"}} className='lower' src={lower}/>
+       <img style={{display:show7? 'flex':"none"}} className='minus' src={minus}/>
+      </div>
+      <span className='random' style={{display:show7? 'flex':"none"}}>You'll learn about tendering processes, proposal writing, building government relationships, and overcoming common challenges in B2G contracting.</span>
+
       <div onClick={()=>{
         setshow1(!show1);
        }} className='cont'>

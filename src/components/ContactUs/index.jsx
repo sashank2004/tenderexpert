@@ -8,7 +8,7 @@ const Contact = () => {
       <div id="contact">
         <h1 className='contactPageTitle'>Contact Us</h1>
         <span className='contactDesc'>Please fill out the form below to discuss how we can support your business development needs and unlock new growth potential.</span>
-        <form action="https://formsubmit.co/a7c832ce680b4da0d59c8b41558e0c97" method="POST" className='contactForm' >
+        <form action="https://formsubmit.co/b0ad1767787beef83c070ce830878648" method="POST" className='contactForm' >
            <input type="text" className='name' placeholder='Your Name' name='name' required/>
            <input type="email" className='email' placeholder='Your Email' name='email' required/>
            <input type="tel" className='number' placeholder='Your Phone Number' name='number' required/>

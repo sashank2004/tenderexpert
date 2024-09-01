@@ -6,6 +6,7 @@ import DoNotJoinIf from "../DoNotJoinIf";
 import Modules from "../Modules";
 import Reviews from "../Reviews";
 import Faqs from "../Faqs";
+import Bonus from "../Bonus";
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
     <Breakthrough/>
     <DoNotJoinIf/>
     <Modules/>
+    <Bonus/>
     <Reviews/>
     <Faqs/>
     </div>

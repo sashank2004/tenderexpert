@@ -8,6 +8,12 @@ import RegistrationPromoBlock from "../RegistrationPromoBlock";
 function ComponentYouSelected() {
   return (
     <div className="main-content-container">
+      <div className="main-heading">
+      <span className="top-heading">Want to know the <span className="orange">Crore Rupee Secret</span> to Landing <span className="orange">Government Contracts</span> As A Small Business Owner In the Next <span className="orange">6-12 Months...</span></span> 
+      <span className="bottom-heading">
+      So That You Can Have Consistent, Sustainable Income?
+      </span>
+      </div>
       <div className="success-workshop-details-container">
         <BusinessSuccessPresentation />
         <div className="business-coach-info-section">
@@ -27,7 +33,7 @@ function ComponentYouSelected() {
                 <div className="full-width-divider" />
                 <p className="business-success-details">
                   <span>Partnered with over </span>
-                  <span className="business-owner-count-text-style">200 </span>
+                  <span className="business-owner-count-text-style">150+ </span>
                   <span>
                     Companies and Backed By 
                   </span>

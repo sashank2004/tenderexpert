@@ -1,3 +1,35 @@
+.main-heading{
+  width: 80%;
+  font: 700 19px/26.5px Montserrat, sans-serif;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.top-heading{
+  font:700 24px/30px Montserrat, sans-serif;
+  margin-bottom: 10px;
+}
+.bottom-heading{
+  font:700 26px/28.5px Montserrat, sans-serif;
+  color:#9d4133;
+}
+@media screen and (max-width:600px){
+  .main-heading{
+    width: 95%;
+  }
+  .top-heading{
+    font:700 18px/26px Montserrat, sans-serif;
+  }
+  .bottom-heading{
+    font:700 20px/25px Montserrat, sans-serif;
+  }
+}
+.orange{
+  color:#ff7f6b;
+}
 .main-content-container {
   box-sizing: border-box;
   display: flex;

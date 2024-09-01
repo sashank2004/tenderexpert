@@ -13,7 +13,6 @@ root.render(
       <Routes>
         <Route path={"/"} element={<Landing/>}/>
         <Route path={"/contactus"} element={<ContactUs/>}/>
-
       </Routes>
     </Router>
   </div>

@@ -1,6 +1,6 @@
 .program-rating-stats-container {
   box-sizing: border-box;
-  width: 100%;
+  width: 10rem;
   padding-right: 15.5px;
 }
 .program-rating-container {
@@ -12,7 +12,6 @@
   align-items: center;
   justify-content: flex-start;
   text-align: left;
-  width: 32rem;
   height: 72px;
   background: white;
   border-radius: 15px;

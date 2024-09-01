@@ -8,7 +8,7 @@ const Bonus = () => {
       <div className="module-hero-title">Bonus Materials</div>
       <div className="module-border-highlight-stripe" />
       <div className='image'>
-        <img alt="book" src={book}/>
+        <img className='img' alt="book" src={book}/>
       </div>
     </div>
   )

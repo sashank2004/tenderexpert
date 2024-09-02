@@ -37,9 +37,7 @@
 .module-hero-image-display-style {
   box-sizing: border-box;
   display: block;
-  width: 409px;
   max-width: initial;
-  height: 581px;
   border: none;
   object-fit: cover;
 }

@@ -60,6 +60,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: center;
 }
 .business-coach-card {
   padding-top: 4px;
@@ -70,12 +71,12 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .business-coach-image {
   box-sizing: border-box;
   display: block;
-  width: 12rem;
+  width: 20rem;
   max-width: initial;
   border: none;
   object-fit: cover;
@@ -178,7 +179,7 @@
 }
 @media screen and (max-width:600px){
   .business-coach-image{
-    width: 9rem;
+    width: 13rem;
   }
   .business-coach-info-container{
     padding-bottom: 6px;
@@ -208,5 +209,10 @@
   }
   .business-success-details{
     margin-top: 26px;
+  }
+}
+@media screen and (max-width:480px){
+  .business-coach-image{
+    width: 11rem;
   }
 }

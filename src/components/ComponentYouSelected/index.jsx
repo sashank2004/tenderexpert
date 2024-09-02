@@ -2,14 +2,14 @@ import BusinessSuccessPresentation from "../BusinessSuccessPresentation";
 import ProgramRatingSection from "../ProgramRatingSection";
 import JoiningProcessSection from "../JoiningProcessSection";
 import "./style.css";
-import image1 from '/assets/womanavatar.png'
+import image1 from '/assets/manavatarback.png';
 import RegistrationPromoBlock from "../RegistrationPromoBlock";
 
 function ComponentYouSelected() {
   return (
     <div className="main-content-container">
       <div className="main-heading">
-      <span className="top-heading">Want to know the <span className="orange">Crore Rupee Secret</span> to Landing <span className="orange">Government Contracts</span> As A Small Business Owner In the Next <span className="orange">6-12 Months...</span></span> 
+      <span className="top-heading">Want to know a <span className="orange">Large Fortune Secret</span> to Landing <span className="orange">Government Contracts</span> As A Small Business Owner In the Next <span className="orange">6-12 Months...</span></span> 
       <span className="bottom-heading">
       So That You Can Have Consistent, Sustainable Income?
       </span>
@@ -19,7 +19,11 @@ function ComponentYouSelected() {
         <div className="business-coach-info-section">
           <div className="business-coach-card">
             <div className="coach-card-container">
+              <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
               <img src={image1} className="business-coach-image" />
+              <ProgramRatingSection />
+              </div>
+              
               <div className="business-coach-info-container">
               <div>
       <p className="coaching-info">
@@ -42,7 +46,7 @@ function ComponentYouSelected() {
                 </p>
               </div>
             </div>
-            <ProgramRatingSection />
+            
           </div>
           <JoiningProcessSection />
         </div>

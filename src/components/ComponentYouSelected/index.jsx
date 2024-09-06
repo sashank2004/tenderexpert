@@ -45,8 +45,7 @@ function ComponentYouSelected() {
                   <span>of Experience</span>
                 </p>
               </div>
-            </div>
-            
+            </div>            
           </div>
           <JoiningProcessSection />
         </div>

@@ -1,6 +1,6 @@
 import { Button, Input } from "@mui/base";
 import "./style.css";
-import bigImage from '/assets/man.jpeg';
+import bigImage from '/assets/mukesh.jpeg';
 
 function ComponentYouSelected() {
   return (

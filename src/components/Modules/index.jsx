@@ -1,6 +1,6 @@
 import { Button, Input } from "@mui/base";
 import "./style.css";
-import bigImage from '/assets/mukesh.jpeg';
+import bigImage from '/assets/mukesh1.png';
 
 function ComponentYouSelected() {
   return (
@@ -9,7 +9,10 @@ function ComponentYouSelected() {
         <p className="module-hero-title">What You Will Learn ?</p>
         <div className="module-border-highlight-stripe" />
         <div className="module-entrepreneur-success-strategies-container">
+          <div className="coul">
           <img src={bigImage} className="module-hero-image-display-style" />
+          <h1 className="mukesh">Mukesh Arora</h1>
+          </div>
           <div className="module-entrepreneur-insights-container">
             <div className="module-foundational-activities-container">
               <Button className="module-foundational-button">01.</Button>

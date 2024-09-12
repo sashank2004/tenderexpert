@@ -23,7 +23,6 @@
   --radius-4:2rem;
 
 }
-
 .container{
   width:var(--container-width-lg);
   margin-inline:auto;
@@ -54,9 +53,10 @@
   margin-bottom: 0.7rem;
 }
 
-img{
+.imge{
   display: block;
   object-fit: cover;
+  width: 100%;
 }
 
 @media screen and (max-width:800px){

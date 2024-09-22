@@ -11,7 +11,7 @@ function ComponentYouSelected() {
         <div className="module-entrepreneur-success-strategies-container">
           <div className="coul">
           <img src={bigImage} className="module-hero-image-display-style" />
-          <h1 className="mukesh">Mukesh Arora</h1>
+          <h1 className="mukesh">MUKESH RAMPUTRA<br/> (CORPORATE TRAINER)</h1>
           </div>
           <div className="module-entrepreneur-insights-container">
             <div className="module-foundational-activities-container">

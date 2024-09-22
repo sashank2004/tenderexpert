@@ -7,11 +7,14 @@ import Modules from "../Modules";
 import Reviews from "../Reviews";
 import Faqs from "../Faqs";
 import Bonus from "../Bonus";
+import PlayVideo from '../PlayVideo';
+import RegistrationPromoBlock from '../RegistrationPromoBlock';
 
 const Landing = () => {
   return (
     <div>
     <ComponentYouSelected />
+    <PlayVideo/>
     <WhatHappens/>
     <Breakthrough/>
     <DoNotJoinIf/>

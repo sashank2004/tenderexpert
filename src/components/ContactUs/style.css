@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .contactPageTitle{
@@ -58,3 +59,40 @@
     padding: 0 10px;
   }
 }
+
+/* Styles for the popup */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Error style */
+.popup.error {
+  background-color: #f44336; /* Red background for errors */
+}
+
+/* Success style */
+.popup.success {
+  background-color: #4caf50; /* Green background for success */
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

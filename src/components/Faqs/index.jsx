@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 import lower from '/assets/plus.png'
 import minus from '/assets/minus.png'
+import RegistrationPromoBlock from '../RegistrationPromoBlock';
 
 const Faqs = () => {
   const [show1,setshow1]=useState(false);
@@ -11,7 +12,8 @@ const Faqs = () => {
   const [show6,setshow6]=useState(false);
   const [show7,setshow7]=useState(false);
   return (
-    <div className='
+    <div className='bottomenq'>
+      <div className='
     faqss'>
       <div className='faqs'>
         <div  className='heading'>
@@ -76,8 +78,12 @@ const Faqs = () => {
       </div>
       <span className='random' style={{display:show4? 'flex':"none"}}>Absolutely! The course is designed to help aspiring entrepreneurs who are in the planning stages of starting a business. It provides valuable insights and strategies that will prepare you for launching your business and securing government contracts.</span>
 
-      </div>
+      </div>     
     </div>
+    <RegistrationPromoBlock/>
+    </div>
+    
+    
   )
 }
 
